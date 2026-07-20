@@ -29,7 +29,7 @@ O pipeline foi desenhado sob as premissas modernas de Engenharia de Dados (DataO
 ```
 
 ## Estrutura 
-
+```
 ├── data/
 │   ├── 1_bronze/         # Dados brutos e imutáveis (.parquet e .csv originais)
 │   ├── 2_silver/         # Dados limpos, tipados e enriquecidos pelo Spark
