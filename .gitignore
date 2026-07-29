@@ -1,0 +1,51 @@
+# ==========================================
+# 1. AMBIENTE VIRTUAL (Python)
+# ==========================================
+# Ignora o ambiente criado via Git Bash/terminal
+venv/
+.venv/
+
+# ==========================================
+# 2. CACHE DO PYTHON E JUPYTER
+# ==========================================
+# Arquivos de compilação e checkpoints do notebook
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ==========================================
+# 3. DADOS DO PROJETO (Camadas Medallion)
+# ==========================================
+# Não subir datasets brutos ou processados (Parquet/CSV) para o GitHub
+*.parquet
+*.csv
+*.json
+
+# Pastas de dados locais (ajuste se seus nomes de pasta forem diferentes)
+data/
+datasets/
+data_lake/
+bronze/
+silver/
+gold/
+
+# ==========================================
+# 4. LOGS E METADADOS DO SPARK
+# ==========================================
+# Arquivos gerados durante a execução do PySpark local
+*.log
+metastore_db/
+derby.log
+spark-warehouse/
+
+# ==========================================
+# 5. SISTEMA OPERACIONAL & VSCODE
+# ==========================================
+# Configurações do SO
+.DS_Store
+Thumbs.db
+
+# Configurações locais do VSCode (opcional: mantém settings.json se quiser compartilhar)
+.vscode/*
+!.vscode/settings.json
