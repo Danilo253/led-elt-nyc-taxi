@@ -1,0 +1,11 @@
+# Kernel e suporte ao Jupyter no VSCode
+ipykernel>=6.0.0
+
+# Processamento de Dados
+pyspark>=3.4.0
+pandas>=2.0.0
+pyarrow>=12.0.0
+
+# Visualização de Dados
+matplotlib>=3.7.0
+seaborn>=0.12.0
