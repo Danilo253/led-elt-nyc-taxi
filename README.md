@@ -120,8 +120,8 @@ pip install -r requirements.txt
 
 Rode os notebooks na ordem numérica:
 
-1. `02_extract_and_load_bronze.ipynb` — baixa o Parquet e o CSV para a camada Bronze.
-2. `01_eda_analysis_team18.ipynb` — (opcional/investigativo) fundamenta as regras de qualidade.
+1. `01_eda_analysis_team18.ipynb` — investigação do dataset.
+2. `02_extract_and_load_bronze.ipynb` — baixa o Parquet e o CSV para a camada Bronze.
 3. `03_Trasformacao_load_silver.ipynb` — gera a camada Silver.
 4. `04_Modelo_Dimensional_load_gold.ipynb` — constrói o Star Schema e executa as análises OLAP.
 
