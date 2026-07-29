@@ -1,11 +1,18 @@
-# Kernel e suporte ao Jupyter no VSCode
-ipykernel>=6.0.0
-
-# Processamento de Dados
+# --- Processamento e Manipulação de Dados ---
+# Escolha / Mantenha a biblioteca que utilizou para o Spark
 pyspark>=3.4.0
 pandas>=2.0.0
-pyarrow>=12.0.0
+pyarrow>=12.0.0  # Suporte e otimização para leitura/escrita Parquet
 
-# Visualização de Dados
-matplotlib>=3.7.0
-seaborn>=0.12.0
+# --- Ingestão ELT e Conectividade ---
+requests>=2.31.0
+urllib3>=2.0.0
+
+# --- Qualidade, Validação e Utilidades ---
+pathlib>=1.0.1  # Biblioteca padrão Python, mas bom para garantir em Python < 3.4
+tqdm>=4.65.0   # Barras de progresso para downloads e loops
+
+# --- Ambiente Interativo & Notebooks ---
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.20.0
