@@ -66,7 +66,7 @@ Processamento distribuído em **PySpark**, com schema rígido e as regras valida
 ### 3. Gold — Modelagem Dimensional (Star Schema)
 `04_Modelo_Dimensional_load_gold.ipynb`
 
-Modelagem analítica segundo **Ralph Kimball**, com granularidade atômica (**1 linha = 1 corrida**) para preservar sinal e permitir *drill-down/roll-up* completo:
+Modelagem analítica, com granularidade atômica (**1 linha = 1 corrida**) para preservar sinal e permitir *drill-down/roll-up* completo:
 
 | Tabela | Tipo | Descrição |
 |---|---|---|
